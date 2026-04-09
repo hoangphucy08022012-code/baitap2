@@ -53,35 +53,28 @@
     </style>
 </head>
 <body>
-
 <div class="container">
     <h2>ĐĂNG KÝ THÔNG TIN CÁ NHÂN</h2>
-
     <div class="row">
         <label>Tài khoản</label>
         <input type="text">
     </div>
-
     <div class="row">
         <label>Mật khẩu</label>
         <input type="password">
     </div>
-
     <div class="row">
         <label>Nhập lại mật khẩu</label>
         <input type="password">
     </div>
-
     <div class="row">
         <label>Email</label>
         <input type="email">
     </div>
-
     <div class="row">
         <label>Họ tên</label>
         <input type="text">
     </div>
-
     <div class="row">
         <label>Giới tính</label>
         <div class="radio">
@@ -89,7 +82,6 @@
             <input type="radio" name="gt"> Nữ
         </div>
     </div>
-
     <div class="row">
         <label>Quê quán</label>
         <select>
@@ -98,7 +90,6 @@
             <option>TP.HCM</option>
         </select>
     </div>
-
     <div class="row">
         <label>Sở thích</label>
         <div class="checkbox">
@@ -107,18 +98,14 @@
             <input type="checkbox"> Thể thao
         </div>
     </div>
-
     <div class="row">
         <label>Ghi chú cá nhân</label>
         <textarea></textarea>
     </div>
-
     <div class="buttons">
         <button>Lưu</button>
         <button>Nhập lại</button>
     </div>
-
 </div>
-
 </body>
 </html>

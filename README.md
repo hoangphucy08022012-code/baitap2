@@ -26,29 +26,19 @@
         .row label {
             width: 150px;
         }
-        .row input[type="text"],
-        .row input[type="password"],
-        .row input[type="email"],
-        .row select,
-        textarea {
+        .row input, .row select, textarea {
             flex: 1;
             padding: 5px;
         }
         .radio, .checkbox {
             display: flex;
             gap: 10px;
-            align-items: center;
         }
         textarea {
             height: 60px;
         }
         .buttons {
             text-align: center;
-            margin-top: 10px;
-        }
-        button {
-            padding: 5px 15px;
-            margin: 5px;
         }
     </style>
 </head>
